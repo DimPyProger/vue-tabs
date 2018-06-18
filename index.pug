@@ -1,0 +1,25 @@
+html
+  head
+    title The tabs component with Vue.js
+  body
+    div#app
+      header.header
+        h1.header__headline The tabs component with Vue.js
+        h1.header__caption Created by <b>Dmitry Pashkovsky</b>
+      main.main
+        div.main__section
+          p.section__text The simple example of using tabs: 
+          tabs-block(tab="4", size="50%")
+        div.main__section
+          p.section__text The example of tabs with using html code: 
+          tabs-block(name="tags")
+        div.main__section
+          p.section__text The example of tab with mistake:
+          tabs-block(name="error", size="700px", tab="2",  nav="left")
+        div.main__section
+          p.section__text The example of tabs with alignment of navigation panel and block content on the right side:  
+          tabs-block(name="additional", size="500px", nav-align="right", block-align="right")
+        div.main__section
+          p.section__text The example of tabs with alignment of navigation panel and block content on the center:
+          tabs-block(name="additional", size="550px", nav-align="center", block-align="center")
+  script(src="https://unpkg.com/vue@2.5.16/dist/vue.js")

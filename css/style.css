@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  margin: 20px;
+}
+
+.header__headline {
+  color: #888;
+  text-align: center;
+}
+.header__caption {
+  color: #565656;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.header_right {
+  margin-right: 15px;
+}
+
+.main {
+  margin-top: 25px;
+}
+.main__section {
+  padding: 35px 0;
+  border-top: solid 1px #dadada;
+}
+
+.section__text {
+  color: #6e6e6e;
+  font-size: 16px;
+}
+
+.tabs {
+  margin-top: 25px;
+}
+.tabs__img {
+  height: 100px;
+}
+.tabs__body {
+  display: flex;
+}
+.tabs__body > .tabs__img {
+  margin-right: 10px;
+}
+.tabs__body_right {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+.tabs__body_right > .tabs__img {
+  margin-left: 10px;
+}
+.tabs__header {
+  display: flex;
+}
+.tabs__header_right {
+  margin-right: 25px;
+  justify-content: flex-end;
+}
+.tabs__menu {
+  display: flex;
+  list-style-type: none;
+}
+.tabs__menu-item {
+  cursor: pointer;
+  padding: 5px 15px;
+  margin-left: 15px;
+  border-radius: 5px 5px 0 0;
+  border-bottom: solid 1px #e2e2e2;
+  background: #a7a7a7;
+}
+.tabs__menu-item:hover {
+  background: #babebf;
+}
+.tabs__menu-item_current, .tabs__menu-item_current:hover {
+  cursor: default;
+  background: #ededed;
+}
+
+.tab {
+  margin: 0;
+  padding: 25px;
+  background: #ededed;
+  border-radius: 5px;
+}
+.tab__text_undefined {
+  color: #898989;
+}
